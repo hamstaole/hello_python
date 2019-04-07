@@ -1,0 +1,21 @@
+friends = [1, 2, 3, 4, 5, 6]
+# afriends = ["Tom", 2, False]
+print(friends)
+# print(afriends)
+# print(friends[0])
+# print(friends[1])
+# print(friends[2])
+# print(friends[-1])
+# print("   [1:] = " + str(friends[1:]))
+# print("  [1:5] = " + str(friends[1:5]))
+# print("[-5:-1] = " + str(friends[-5:-1]))
+# print(" [-1:0] = " + str(friends[-1:0]))
+# print(" [-1:5] = " + str(friends[-1:5]))
+# print(" [0:-5] = " + str(friends[0:-5]))
+# print("[-1:-6] = " + str(friends[-1:-6]))
+# print("[3:-1] = " + str(friends[3:-1]))
+# print(" [3:5] = " + str(friends[3:5]))
+print("[0::1] = " + str(friends[0::1]))
+print("[0::2] = " + str(friends[0::2]))
+print("[0::3] = " + str(friends[0::3]))
+
