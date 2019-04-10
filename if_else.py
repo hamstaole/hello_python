@@ -3,12 +3,21 @@
 
 num: int = int(input("Enter a number : "))
 if num % 2 == 0:
-     print(str(num) + " is even. ")
+    print(str(num) + " is even. ")
 else:
-     print(str(num) + " is odd. ")
+    print(str(num) + " is odd. ")
 
-num = int(input("Enter a number : "))
-if 10 >= num >= 1:
-    print("True. ")
+from random import randint
+
+
+def rand_num():
+    return randint(1, 10)
+
+
+randNum = rand_num()
+print(randNum)
+num = int(input("Enter a number: "))
+if randNum == num:
+    print("True")
 else:
-    print("False. ")
+    print("False")
