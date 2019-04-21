@@ -26,7 +26,3 @@ elif x == 1:
 else:
     print("I don't know")
 # if statement and comparison
-
-def max():
-
-
